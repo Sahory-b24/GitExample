@@ -4,12 +4,15 @@
  */
 package main;
 
+import core.Person;
+
 /**
  *
  * @author Sahory Blanco
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("hello world!");
+        Person person = new Person(101010102, "sahory", 18);
+        System.out.println(person);
     }
 }
